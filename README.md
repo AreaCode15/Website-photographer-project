@@ -18,3 +18,7 @@ For anyone interested, do not hesitate to contact me:
 . Java Script
 . Bootstrap
 . PHP
+. Hero Slider
+. Magnific Popup
+. Font Awesome
+. Jquery

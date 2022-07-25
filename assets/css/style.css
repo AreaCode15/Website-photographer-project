@@ -44,7 +44,7 @@ a:focus {
 	font-size: 1.75rem;
 	padding: 1rem 1.5rem;
 	background: rgba(255,255,255,0.7);
-	border-radius: 0;
+	border-radius: 5px;
 }
 
 button:focus { outline: none; }
@@ -62,6 +62,7 @@ button:focus { outline: none; }
 	vertical-align: middle;
     width: 160px;
     height: 40px;
+    border-radius: 5px;
 }
 
 .cd-slider-nav .nav-item.selected .nav-link,
@@ -99,6 +100,7 @@ button:focus { outline: none; }
 .tm-textbox {
 	display: inline-block;
 	padding: 40px 45px;
+    border-radius: 5px;
 }
 
 .cd-hero-slider h2, .cd-hero-slider p {
@@ -121,7 +123,7 @@ button:focus { outline: none; }
 	max-width: 600px; 
 	-webkit-flex: 0 1 auto; 
 	    -ms-flex: 0 1 auto; 
-	        flex: 0 1 auto; /* Fix flexbox in IE 10 bug https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/ */
+	        flex: 0 1 auto;
 }
 
 .cd-hero-slider h2.tm-text-title {
@@ -145,6 +147,19 @@ button:focus { outline: none; }
     text-align: center;
     padding-top: 5px;
     margin-right: 10px;
+    border-radius: 5px;
+}
+
+.tm-social-link:hover {
+	background-color: rgba(255,255,255,0.40);
+    color: #00ffff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
 .tm-social-link:last-child { margin-right: 0; }
@@ -208,6 +223,7 @@ button:focus { outline: none; }
   	height: auto;
   	border: 10px solid #ffffff;
   	margin: 0 auto 10px;
+    border-radius: 5px;
 }
 
 /* Contact */
@@ -225,11 +241,19 @@ button:focus { outline: none; }
 .form-control,
 .tm-submit-btn {
 	font-size: 1.8rem;
+    border-radius: 5px;
+}
+
+.tm-submit-btn:hover {
+	font-size: 1.8rem;
+    border-radius: 5px;
+    color: #8000ff;
 }
 .form-control {
 	background-color: rgba(255,255,255,0.7);
 	border-radius: 0;
 	padding: 1rem 2rem;
+    border-radius: 5px;
 }
 
 .form-control::-webkit-input-placeholder {
